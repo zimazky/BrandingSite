@@ -3,22 +3,22 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section className="bg-white pt-20">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-12">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-12">
         <div className="relative">
-          <h1 className="font-sans text-[10vw] md:text-[12vw] lg:text-[10rem] font-bold leading-none uppercase text-black">
-            Специалист по
-            <br />
-            автоматизации
+          <h1 className="font-pt-sans-narrow text-[6vw] md:text-[5vw] lg:text-[5vw] font-bold leading-none uppercase text-black [word-spacing:-2vw]">
+            Разработчик /<br/>Специалист по автоматизации
           </h1>
-          <div className="absolute top-1/2 right-0 -translate-y-1/2 w-1/3 md:w-1/4">
-            <Image
-              src="/../public/file.svg" // Placeholder image
-              alt="Зимацкий Андрей"
-              width={400}
-              height={600}
-              className="grayscale"
-            />
-          </div>
+
+        </div>
+        <div className="flex justify-center mt-16">
+            <div className="w-128 h-160 relative overflow-hidden">
+                <Image
+                src="/img/me.jpg"
+                alt="Зимацкий Андрей"
+                layout="fill"
+                objectFit="cover"
+                />
+            </div>
         </div>
         <div className="flex justify-between items-end mt-16">
           <div className="font-mono text-sm uppercase">

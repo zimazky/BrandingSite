@@ -19,9 +19,9 @@ const About = () => {
 
         <div className="mt-20 lg:mt-32 grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
           <div className="flex flex-col items-center text-center">
-            <div className="w-40 h-40 relative rounded-full overflow-hidden mb-4">
+            <div className="w-64 h-80 relative border-2 border-white overflow-hidden mb-4">
                <Image
-                src="/../public/file.svg" // Placeholder image
+                src="/img/me.jpg"
                 alt="Зимацкий Андрей"
                 layout="fill"
                 objectFit="cover"

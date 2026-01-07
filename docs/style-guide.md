@@ -56,5 +56,4 @@ The typography is a key element of the design. It uses a combination of a bold, 
 
 ## 5. Imagery
 
-*   **Style:** All photography should be black and white.
 *   **Content:** Images should be professional, high-quality, and align with the minimalist aesthetic. They can be portraits, abstract shots, or project-related visuals.
