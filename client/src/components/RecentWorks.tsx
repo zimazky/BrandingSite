@@ -22,6 +22,14 @@ const RecentWorks = () => {
             <p className="font-mono text-sm mt-2">ООО «ФЕНИКС», Порт Бронка</p>
             <p className="font-mono text-xs mt-1">Февраль 2017 - Апрель 2022</p>
           </div>
+          <div className="border border-white p-8">
+            <h3 className="font-sans text-2xl font-bold uppercase">Системный администратор</h3>
+            <p className="font-mono text-sm mt-2">ООО «ИНТЕРФОРУМ»</p>
+            <p className="font-mono text-xs mt-1">Октябрь 2010 - Декабрь 2016</p>
+            <Link href="/experience" className="font-mono text-sm text-gray-400 hover:text-white transition-colors duration-300 mt-4 inline-block">
+              Подробнее...
+            </Link>
+          </div>
         </div>
       </div>
     </section>
