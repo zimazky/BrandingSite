@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body {
+  font-family: theme(fontFamily.mono);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
