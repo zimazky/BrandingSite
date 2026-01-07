@@ -10,19 +10,40 @@ const Services = () => {
   return (
     <section id="services" className="bg-white text-black py-20 lg:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-start mb-16">
-          <h2 className="font-sans text-6xl md:text-8xl font-bold uppercase">Services</h2>
-          <div className="font-mono text-xs uppercase tracking-widest text-right">
-            <p>DSGN/V4</p>
+<h2 className="font-sans text-6xl md:text-8xl font-bold uppercase mb-16 text-right">
+          Мои услуги
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="border-t-2 border-black pt-4">
+            <h3 className="font-sans text-2xl font-bold uppercase">C#/.NET разработка</h3>
+            <p className="font-mono text-sm mt-2">
+              Разработка клиент-серверных приложений на платформе .NET, включая ASP.NET Core, EF Core, WPF и Avalonia.
+            </p>
           </div>
-        </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 border-t border-l border-black">
-          {services.map((service, index) => (
-            <div key={index} className="p-8 border-b border-r border-black h-48">
-              <p className="font-mono text-xs uppercase tracking-widest mb-4">{service.number}</p>
-              <h3 className="font-mono text-lg uppercase tracking-widest">{service.title}</h3>
-            </div>
-          ))}
+          <div className="border-t-2 border-black pt-4">
+            <h3 className="font-sans text-2xl font-bold uppercase">Веб-разработка</h3>
+            <p className="font-mono text-sm mt-2">
+              Создание и поддержка веб-приложений с использованием JavaScript, HTML, CSS, а также опыт работы с WASM.
+            </p>
+          </div>
+          <div className="border-t-2 border-black pt-4">
+            <h3 className="font-sans text-2xl font-bold uppercase">Базы данных и отчеты</h3>
+            <p className="font-mono text-sm mt-2">
+              Проектирование и работа с базами данных MS SQL и PostgreSQL, создание отчетов в JasperReports и FastReport.
+            </p>
+          </div>
+          <div className="border-t-2 border-black pt-4">
+            <h3 className="font-sans text-2xl font-bold uppercase">Системная интеграция</h3>
+            <p className="font-mono text-sm mt-2">
+              Опыт в системной интеграции, автоматизации технологических и бизнес-процессов, а также IT-консалтинг.
+            </p>
+          </div>
+          <div className="border-t-2 border-black pt-4">
+            <h3 className="font-sans text-2xl font-bold uppercase">Другие технологии</h3>
+            <p className="font-mono text-sm mt-2">
+              Владение Python, Git, Delphi и опыт администрирования систем.
+            </p>
+          </div>
         </div>
       </div>
     </section>
